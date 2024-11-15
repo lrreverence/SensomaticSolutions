@@ -35,7 +35,12 @@ function About() {
                     <p>Ongoing Projects</p>
                 </div>
             </div>
-            <p className='my-10 max-w-lg'>Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
+            <p className='my-10 max-w-lg'>
+            Sensomatic Solutions is dedicated to transforming home living with smart, automated sensor
+            technology. Our innovative products simplify daily household tasks, making life more
+            convenient, efficient, and worry-free. From protecting laundry during unpredictable weather to
+            seamlessly integrating with home systems, Sensomatic Solutions brings intelligent solutions for a
+            better home experience.</p>
             <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn more</button>
         </div>
       </div>
