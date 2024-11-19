@@ -35,41 +35,24 @@ export const assets = {
 
 export const projectsData = [
     {
-      title: "Skyline Haven",
+      title: "Sensomatic Smart Dry",
       price: "$2,50,000",
       location: "California",
       image: project_img_1
     },
     {
-      title: "Vista Verde",
+      title: "Home Sensor Modules",
       price: "$2,50,000",
-      location: "San Francisco",
+      location: "Our smart sensor modules provide real-time monitoring and automated responses for various household tasks, from temperature control to security, giving you full control and peace of mind.",
       image: project_img_2
     },
     {
-      title: "Serenity Suites",
+      title: "Automated Chore Sensors",
       price: "$2,50,000",
-      location: "Chicago",
+      location: "Designed to automate repetitive tasks like cleaning, drying, and monitoring, these sensors are tailored for easy integration with your home devices, reducing the time and effort needed for household maintenance.",
       image: project_img_3
     },
-    {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
-      image: project_img_4
-    },
-    {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_5
-    },
-    {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_6
-    },
+
     
   ];
 
@@ -80,7 +63,7 @@ export const projectsData = [
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Maria Tereza, a 36-year-old stay-at-home mom in La Paz, Iloilo City, juggles multiple responsibilities in managing her household, caring for her three children, and handling daily chores. Her typical day is a balancing act of cooking, cleaning, and laundry. However, with Sensomatic Solutions, her routine becomes more manageable, as the smart automation of household tasks significantly reduces stress and enhances efficiency."
     },
     {
         name: "Richard Nelson",
