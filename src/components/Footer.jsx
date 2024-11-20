@@ -7,7 +7,11 @@ const Footer = () => {
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
             <img src={assets.logo_dark} alt="" />
-            <p className='text-gray-400 mt-4'>Lorem ipsum is so ubiquitous because it is so versatile. Select how many paragraphs you want, copy, paste, and break the lines wherever it is convenient. </p>
+            <p className='text-gray-400 mt-4'>Sensomatic Solutions is dedicated to transforming home living with smart, automated sensor
+            technology. Our innovative products simplify daily household tasks, making life more
+            convenient, efficient, and worry-free. From protecting laundry during unpredictable weather to
+            seamlessly integrating with home systems, Sensomatic Solutions brings intelligent solutions for a
+            better home experience. </p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
             <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
