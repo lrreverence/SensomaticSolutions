@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import About from './components/About'
+import Product from './components/Product'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import { ToastContainer } from 'react-toastify';
@@ -15,6 +16,7 @@ const App = () => {
       <ToastContainer/>
       <Header/>
       <About/>
+      <Product/>
       <Products/>
       <Testimonials/>
       <Contact/>
