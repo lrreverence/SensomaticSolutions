@@ -11,37 +11,35 @@ function Product() {
     viewport={{once:true}}
     className='flex flex-col items-center justify-center 
     container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
-      <h1 className='text-2xl sm::text-4xl font-bold mb-2'>About <span 
-      className='underline underline-offset-4 decoration-1 under font-light'> Our Brand</span></h1>
-      <p className='text-gray-500 max-w-80 text-center mb-8'>Passionate About Properties, Dedicated to your Vision</p>
+      <h1 className='text-2xl sm::text-4xl font-bold mb-2'>Sensomatic <span 
+      className='underline underline-offset-4 decoration-1 under font-light'>Smart Dry</span></h1>
+      <p className='text-gray-500 max-w-80 text-center mb-8'>Weather-Responsive Laundry, Effortless Care</p>
       <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20'>
-        <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 max-w-lg'/>
-        <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
-            <div className='grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28'>
-                <div>
-                    <p className='text-4xl font-medium text-gray-800'>10+</p>
-                    <p>Years of Excellence</p>
-                </div>
-                <div>
-                    <p className='text-4xl font-medium text-gray-800'>12+</p>
-                    <p>Projects Completed</p>
-                </div>
-                <div>
-                    <p className='text-4xl font-medium text-gray-800'>20+</p>
-                    <p>Mn. Sq. Ft. Delivered</p>
-                </div>
-                <div>
-                    <p className='text-4xl font-medium text-gray-800'>25+</p>
-                    <p>Ongoing Projects</p>
-                </div>
-            </div>
-            <p className='my-10 max-w-lg'>
-            Sensomatic Solutions is dedicated to transforming home living with smart, automated sensor
-            technology. Our innovative products simplify daily household tasks, making life more
-            convenient, efficient, and worry-free. From protecting laundry during unpredictable weather to
-            seamlessly integrating with home systems, Sensomatic Solutions brings intelligent solutions for a
-            better home experience.</p>
-            <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn more</button>
+        <img src={assets.brand_img1} alt="" className='w-full sm:w-1/2 max-w-lg'/>
+        <div className='flex flex-col items-center md:items-start mt-1 text-gray-600 '>
+            <p className='my-1 max-w-lg mb-5'>
+            Sensomatic Smart Dry is an innovative, weather-responsive laundry solution that automatically
+protects your clothes from rain and optimizes drying in sunlight. With intelligent sensors, Smart
+Dry retracts and extends your clothesline based on real-time weather changes, making laundry
+care easier and more efficient.</p>
+            <p className='max-w-lg'><strong class="bold-text">• Automatic Weather Detection:</strong> Smart Dry’s sensors detect rain and sunlight in realtime, automatically retracting your clothesline when rain begins and extending it when
+the sun returns. No more rushing to bring in clothes during sudden showers!
+</p>
+            <p className='my-1 max-w-lg'>
+            <strong class="bold-text">• Seamless Installation:</strong> Our compact, weather-resistant sensor easily attaches to most
+commercial clotheslines and racks, integrating smoothly into your home setup.
+            </p>
+            <p className='my-1 max-w-lg'>
+            <strong class="bold-text">• Eco-Friendly Design: </strong>
+             With solar-powered operation, Smart Dry uses renewable energy
+for minimal impact on the environment, while saving you time and effort.
+            </p>
+            <p className='my-1 max-w-lg'>
+            <strong class="bold-text">• Enhanced Convenience: </strong>
+             Simplify your daily routine by trusting Smart Dry to manage
+your laundry exposure—perfect for busy schedules and unpredictable weather.
+            </p>
+            <button className='bg-blue-600 text-white px-8 py-2 rounded mt-5'>Order Now</button>
         </div>
       </div>
     </motion.div>

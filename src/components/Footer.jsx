@@ -5,13 +5,11 @@ const Footer = () => {
   return (
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden' id='Footer'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
+      <img src={assets.logo} alt="" className='w-20 h-20 mt-5'/>
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-            <img src={assets.logo_dark} alt="" />
-            <p className='text-gray-400 mt-4'>Sensomatic Solutions is dedicated to transforming home living with smart, automated sensor
-            technology. Our innovative products simplify daily household tasks, making life more
-            convenient, efficient, and worry-free. From protecting laundry during unpredictable weather to
-            seamlessly integrating with home systems, Sensomatic Solutions brings intelligent solutions for a
-            better home experience. </p>
+
+            <p className='text-gray-400 mt-4'>
+            Sensomatic Solutions transforms home living with smart sensors, simplifying daily tasks for a more convenient, efficient, and worry-free life. From weather-protecting laundry to seamless home integration, we deliver intelligent solutions for better living. </p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
             <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
@@ -32,7 +30,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='border-t border-gray-700 py-4 mt-10 text-center text-gray-500'>
-        Copyright 2024 © Va-ay. All Right Reserved.
+        Copyright 2024 © Sensomatic Solutions. All Right Reserved.
       </div>
     </div>
   )
