@@ -75,10 +75,10 @@ export const projectsData = [
     },
     {
         name: "Ethan Del Rosario",
-        title: "Farmer",
+        title: "Engineer",
         image: profile_img_3,
         alt: "Portrait of Ethan Del Rosario",
         rating: 5,
-        text: "As a farmer during the rainy harvest season, drying clothes was a constant challenge. Unpredictable weather left my laundry damp, and machine drying only added to high electricity bills and fabric damage. Sensomatic’s Smart Dry System solved it all. Its Rain & Sunlight Sensor protects my clothes and dries them naturally, saving me time, money, and stress. It’s the perfect solution for my busy life!"
+        text: "During the rainy season, drying clothes was a constant challenge. Unpredictable weather left my laundry damp, and machine drying only added to high electricity bills and fabric damage. Sensomatic’s Smart Dry System solved it all. Its Rain & Sunlight Sensor protects my clothes and dries them naturally, saving me time, money, and stress. It’s the perfect solution for my busy life!"
     }
 ];
